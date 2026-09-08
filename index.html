@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ben — Projects</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="hero-kicker">Ben</p>
+    <h1 class="hero-title">Systems, graphics, and sound — built and taken apart until I understand them.</h1>
+    <p class="hero-sub">CS student at Northwestern, finishing a combined B.A./M.S. Below are a few things I've built along the way: a board game, a rhythm-game instrument, and an ocean that doesn't exist.</p>
+  </div>
+</header>
+
+<main>
+
+  <section class="project" id="catan">
+    <div class="project-media">
+      <div class="photo-slot" data-label="Catan board — photo coming soon"></div>
+    </div>
+    <div class="project-copy">
+      <h2>Catan, rebuilt from scratch</h2>
+      <p class="project-meta">Java · team project · Northwestern CS</p>
+      <p>A full implementation of the Catan board game, built with a team under strict engineering discipline: test-driven development, boundary value analysis, EasyMock for isolating dependencies, and SpotBugs and CheckStyle enforced on every commit.</p>
+      <p>I worked on the core game model — classes like <code>BoardHandler</code>, <code>Port</code>, <code>TradeManager</code>, <code>TradeOffer</code>, <code>ResourceDeck</code>, and <code>GameModel</code> — and wrote the integration and unit tests that kept the whole thing honest as the codebase grew.</p>
+    </div>
+  </section>
+
+  <section class="project reverse" id="guitar">
+    <div class="project-media">
+      <div class="photo-slot" data-label="Micro:bit setup — photo coming soon"></div>
+    </div>
+    <div class="project-copy">
+      <h2>A guitar you play on a Micro:bit</h2>
+      <p class="project-meta">Embedded C · Micro:bit v2</p>
+      <p>A Guitar Hero–style instrument running on bare embedded hardware. Guitar chord recordings get converted into C header arrays and played back through PWM — no audio codec, no sample library, just square waves shaped closely enough to sound like real chords.</p>
+      <p>Most of the real work was in the failure modes: linker errors, duplicate symbols, and the general chaos of pushing audio through a microcontroller that was never designed to make music.</p>
+    </div>
+  </section>
+
+  <section class="project" id="underwater">
+    <div class="project-media">
+      <div class="photo-slot" data-label="Underwater scene — photo coming soon"></div>
+    </div>
+    <div class="project-copy">
+      <h2>An underwater scene, rendered from nothing</h2>
+      <p class="project-meta">WebGL · GLSL · CS 351, Northwestern</p>
+      <p>A from-scratch 3D underwater world for a computer graphics course: OBJ model parsing, hand-laid-out vertex buffers, Phong lighting, texture mapping, caustic light patterns on the seafloor, volumetric light rays through the water, and a skybox cubemap holding it all together.</p>
+      <p>Jellyfish drift, sharks and goldfish swim on their own animation cycles, and a full camera system lets you move through the scene. The codebase went through a full refactor into modular files after a long stretch of chasing down rendering, shader, and buffer bugs.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Built by Ben — <a href="mailto:you@example.com">get in touch</a></p>
+</footer>
+
+</body>
+</html>
