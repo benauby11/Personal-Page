@@ -42,8 +42,8 @@
     <div class="project-copy">
       <h2>Guitar Hero, played on a Micro:bit</h2>
       <p class="project-meta">Embedded C · Micro:bit v2 · CS 343, Northwestern University</p>
-      <p>A Guitar Hero–style instrument running on bare embedded hardware. Guitar chord recordings get converted into C header arrays and played back through PWM — no audio codec, no sample library, just square waves shaped closely enough to sound like real chords.</p>
-      <p>Most of the real work was in the failure modes: linker errors, duplicate symbols, and the general chaos of pushing audio through a microcontroller that was never designed to make music.</p>
+      <p>A Guitar Hero–style game utilizing three separate Micro:Bits, all communicating wirelessly. One connected to a glove to detect finger flexion, another inside a 3D-printed guitar pick to detect strumming, and a third running the actual game logic and display.</p>
+      <p>We converted self-recorded strumming into arrays used in PWM cycles for audio playback, and wrote drivers for most of the sensors. One of my favorite projects I've ever worked on!</p>
     </div>
   </section>
 
@@ -56,6 +56,18 @@
       <p class="project-meta">JavaScript · WebGL · CS 351, Northwestern University</p>
       <p>A from-scratch 3D underwater world for a computer graphics course: OBJ model parsing, Phong lighting, texture mapping, caustic light patterns on the seafloor, volumetric light rays through the water, and a skybox cubemap holding it all together.</p>
       <p>Sharks and goldfish swim on their own animation cycles, the jellyfish swims based on user input, and a full camera system lets you move through the scene, with both orthographic and perspective views.</p>
+    </div>
+  </section>
+
+  <section class="project reverse" id="video game">
+    <div class="project-media">
+         <img src="siftw.png" alt="Screenshot from Sleep is For The Week" class="photo-slot">
+    </div>
+    <div class="project-copy">
+      <h2>Sleep is for the Week</h2>
+      <p class="project-meta">C# · Unity · CS 377, Northwestern University</p>
+      <p>A Vampire Survivors–style game built for a game design course focused on interactive and progressive gameplay. Waves of enemies scale up as you survive longer, and the player steadily unlocks new abilities and upgrades.</p>
+      <p>I built four unlockable weapons, each with a distinct attack pattern and its own upgrade path as the run progresses. I also handled character and camera movement, tuning things like movement smoothing and screen shake so combat felt responsive rather than stiff.</p>
     </div>
   </section>
 
