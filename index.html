@@ -6,7 +6,7 @@
 <title>Benjamin Auby - Software Engineer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
@@ -41,7 +41,7 @@
     </div>
     <div class="project-copy">
       <h2>Guitar Hero, played on a Micro:bit</h2>
-      <p class="project-meta">Embedded C · Micro:bit v2 · Drivers</p>
+      <p class="project-meta">Embedded C · Micro:bit v2 · Microcontrollers</p>
       <p>A Guitar Hero–style game utilizing three separate Micro:bits, all communicating wirelessly. One connected to a glove to detect finger flexion, another inside a 3D-printed guitar pick to detect strumming, and a third running the actual game logic and display.</p>
       <p>We converted self-recorded guitar strums into arrays used in PWM cycles for audio playback, and wrote drivers for most of the sensors. One of my favorite projects I've ever worked on!</p>
     </div>
@@ -61,7 +61,7 @@
 
   <section class="project reverse" id="video game">
     <div class="project-media">
-         <img src="siftw.png" alt="Screenshot from Sleep is For The Week" class="photo-slot" style="aspect-ratio: 16 / 9;">
+         <img src="siftw.png" alt="Screenshot from Sleep is For The Week" class="photo-slot" style="aspect-ratio: 13 / 9;">
     </div>
     <div class="project-copy">
       <h2>Sleep is for the Week</h2>
@@ -72,22 +72,22 @@
   </section>
 
   <section class="contact" id="contact">
-    <h2>Contact</h2>
-    <p>I'm looking for software engineering roles, especially in embedded systems and audio. My resume and LinkedIn are down below, or feel free to reach out directly!</p>
-    <div class="contact-links">
-      <a href="mailto:you@example.com">benauby11@gmail.com</a>
-      <a href="https://github.com/benauby11">GitHub</a>
-      <a href="www.linkedin.com/in/benjamin-auby-7b56002a8">LinkedIn</a>
+    <div class="contact-columns" style="display: flex; gap: 3rem; align-items: flex-start;">
+      <div class="contact-links" style="display: flex; flex-direction: column; gap: 1rem;">
+        <h2>Contact</h2>
+        <p>Thanks for visiting my website, feel free to reach out! </p>
+        <a href="mailto:benauby11@gmail.com">benauby11@gmail.com</a>
+        <a href="https://github.com/benauby11">GitHub</a>
+        <a href="https://www.linkedin.com/in/benjamin-auby-7b56002a8">LinkedIn</a>
+      </div>
+      <div class="resume-column">
+        <h3><a href="resume.pdf" download>Resume</a></h3>
+        <img src="resume.png" alt="Benjamin Auby's resume" class="resume-embed">
+      </div>
     </div>
-    <iframe src="resume.pdf" class="resume-embed" title="Benjamin Auby's resume"></iframe>
-    <p class="resume-fallback"><a href="resume.pdf" download>Download resume as PDF</a></p>
-  </section>
+</section>
 
 </main>
-
-<footer class="site-footer">
-  <p>Thanks for visiting my website! Feel free to <a href="mailto:benauby11@gmail.com">get in touch.</a></p>
-</footer>
 
 </body>
 </html>
