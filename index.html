@@ -28,8 +28,8 @@
       <img src="catan.png" alt="Board state from the Catan game" class="photo-slot">
     </div>
     <div class="project-copy">
-      <h2>Catan, rebuilt from scratch</h2>
-      <p class="project-meta">Java · SDLC · CS 380, Northwestern University</p>
+      <h2>Catan, built from scratch</h2>
+      <p class="project-meta">Java · SDLC · System Design</p>
       <p>A full implementation of the Catan board game, built with a team under strict engineering discipline: test-driven development, boundary value analysis, EasyMock for isolating dependencies, and SpotBugs and CheckStyle enforced on every commit.</p>
       <p>I worked on the core game model, classes like <code>BoardHandler</code>, <code>Port</code>, <code>Hex</code>, <code>Robber</code>, and <code>GameModel</code>, and wrote integration and unit tests as the codebase grew.</p>
     </div>
@@ -41,9 +41,9 @@
     </div>
     <div class="project-copy">
       <h2>Guitar Hero, played on a Micro:bit</h2>
-      <p class="project-meta">Embedded C · Micro:bit v2 · CS 343, Northwestern University</p>
-      <p>A Guitar Hero–style game utilizing three separate Micro:Bits, all communicating wirelessly. One connected to a glove to detect finger flexion, another inside a 3D-printed guitar pick to detect strumming, and a third running the actual game logic and display.</p>
-      <p>We converted self-recorded strumming into arrays used in PWM cycles for audio playback, and wrote drivers for most of the sensors. One of my favorite projects I've ever worked on!</p>
+      <p class="project-meta">Embedded C · Micro:bit v2 · Drivers</p>
+      <p>A Guitar Hero–style game utilizing three separate Micro:bits, all communicating wirelessly. One connected to a glove to detect finger flexion, another inside a 3D-printed guitar pick to detect strumming, and a third running the actual game logic and display.</p>
+      <p>We converted self-recorded guitar strums into arrays used in PWM cycles for audio playback, and wrote drivers for most of the sensors. One of my favorite projects I've ever worked on!</p>
     </div>
   </section>
 
@@ -52,23 +52,35 @@
       <img src="project2Day.png" alt="Underwater scene photo" class="photo-slot" style="aspect-ratio: 1 / 1;">
     </div>
     <div class="project-copy">
-      <h2>An interactive underwater scene</h2>
-      <p class="project-meta">JavaScript · WebGL · CS 351, Northwestern University</p>
-      <p>A from-scratch 3D underwater world for a computer graphics course: OBJ model parsing, Phong lighting, texture mapping, caustic light patterns on the seafloor, volumetric light rays through the water, and a skybox cubemap holding it all together.</p>
-      <p>Sharks and goldfish swim on their own animation cycles, the jellyfish swims based on user input, and a full camera system lets you move through the scene, with both orthographic and perspective views.</p>
+      <h2>Interactive coral reef</h2>
+      <p class="project-meta">JavaScript · WebGL · Animation</p>
+      <p>A 3D underwater scene for a computer graphics course, which required OBJ model parsing, Phong lighting, texture mapping, caustic light patterns on the seafloor, volumetric light rays through the water, and a skybox cubemap holding it all together.</p>
+      <p>Time the shark's animation cycle to hunt down and eat a goldfish, or tap spacebar to propel the jellyfish upward. A full camera system lets you move through the scene, with both orthographic and perspective views.</p>
     </div>
   </section>
 
   <section class="project reverse" id="video game">
     <div class="project-media">
-         <img src="siftw.png" alt="Screenshot from Sleep is For The Week" class="photo-slot">
+         <img src="siftw.png" alt="Screenshot from Sleep is For The Week" class="photo-slot" style="aspect-ratio: 16 / 9;">
     </div>
     <div class="project-copy">
       <h2>Sleep is for the Week</h2>
-      <p class="project-meta">C# · Unity · CS 377, Northwestern University</p>
+      <p class="project-meta">C# · Unity · Game Design</p>
       <p>A Vampire Survivors–style game built for a game design course focused on interactive and progressive gameplay. Waves of enemies scale up as you survive longer, and the player steadily unlocks new abilities and upgrades.</p>
-      <p>I built four unlockable weapons, each with a distinct attack pattern and its own upgrade path as the run progresses. I also handled character and camera movement, tuning things like movement smoothing and screen shake so combat felt responsive rather than stiff.</p>
+      <p>I built four unlockable weapons, each with a distinct attack pattern that changes how you play as your run progresses. I also handled character and camera movement, tuning aspects such as movement smoothing and predictive camera tracking.</p>
     </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p>I'm looking for software engineering roles, especially in embedded systems and audio. My resume and LinkedIn are down below, or feel free to reach out directly!</p>
+    <div class="contact-links">
+      <a href="mailto:you@example.com">benauby11@gmail.com</a>
+      <a href="https://github.com/benauby11">GitHub</a>
+      <a href="www.linkedin.com/in/benjamin-auby-7b56002a8">LinkedIn</a>
+    </div>
+    <iframe src="resume.pdf" class="resume-embed" title="Benjamin Auby's resume"></iframe>
+    <p class="resume-fallback"><a href="resume.pdf" download>Download resume as PDF</a></p>
   </section>
 
 </main>

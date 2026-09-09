@@ -153,6 +153,50 @@ main {
 
 .project-copy p:last-child { margin-bottom: 0; }
 
+/* ---------- Contact ---------- */
+
+.contact {
+  padding: 5rem 0;
+  border-top: 1px solid var(--line);
+  text-align: left;
+}
+ 
+.contact h2 {
+  font-size: 1.6rem;
+  margin: 0 0 0.75rem;
+}
+ 
+.contact p {
+  color: var(--ink-soft);
+  max-width: 46ch;
+  margin: 0 0 1.5rem;
+}
+ 
+.contact-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+}
+ 
+.contact-links a {
+  font-weight: 500;
+}
+ 
+.resume-embed {
+  width: 100%;
+  max-width: 700px;
+  height: 900px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  display: block;
+}
+ 
+.resume-fallback {
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
