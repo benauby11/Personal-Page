@@ -255,6 +255,7 @@ main {
 
 .contact h3 a:hover {
   color: var(--accent);
+  text-decoration: underline;
 }
  
 .contact p {
