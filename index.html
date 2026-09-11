@@ -15,7 +15,7 @@
   <nav class="site-nav">
   <span class="nav-name">Benjamin Auby</span>
   <div class="nav-links">
-    <a href="#about">About me</a>
+    <a href="#about">About Me</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </div>
@@ -25,7 +25,7 @@
   <div>
     <h1 class="hero-title">Benjamin Auby</h1>
   </div>
-  <img src="tux.jpeg" alt="Benjamin Auby" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+  <img src="images/tux.jpeg" alt="Benjamin Auby" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
 </div>
 
 <main>
@@ -34,81 +34,108 @@
   <div class="about-columns">
     <div id="about" class="about-copy">
       <h2>About Me</h2>
-      <p>Hi! My name is Ben, and I'm originally from Madison, Wisconsin. I graduated with my Bachelor's Degree in 
-        both Computer Science and Mathematics from Northwestern University in June 2026, and stuck around to complete my Master's in CS by 
-        December 2026. I really enjoy problem solving and collaborating with others, and have found 
-        my favorite experiences while coding always involve classmates and me hunkering down for hours on end.
+      <p>Hi! My name is Ben, and I'm originally from Madison, Wisconsin. I graduated from Northwestern in June 2026 with a degree in Computer Science and Mathematics, 
+        before sticking around to complete my Master's in CS by December 2026. I enjoy CS because I love collaborative problem solving, and have found my favorite coding
+        experiences always involve classmates and me hunkering down for hours on end.
       </p>
 
       <p>
-        The languages that I'm most familiar with are Python and C++, though I am also quite comfortable with Java, JavaScript, C, and C#. 
-        Last summer, I was at WPS Health Solutions as an application developer intern, and I'm currently looking for 2027 early career roles in Software Engineering.
+        I'm currently looking for early career software engineering roles starting in 2027! The 
+        languages that I'm most familiar with are Python and C++, though I also frequently use Java, JavaScript, C, and C#. 
+        Last summer, I was at WPS Health Solutions as an application developer intern, writing code
+        for over nine enterprise applications using VB.NET, C#, and SQL. 
       </p>
 
       <p>
-        When not coding, you'll likely find me making music, whether it be playing upright bass in Northwestern's Philharmonia Orchestra,
-        playing electric bass in my band, or playing a combination of both in student productions on campus. This past year, I played in <i>Pippin</i>
-        as well as an entirely student-written production titled <i>The Ballad of Ricky Jo</i>. I also enjoy playing tennis and softball, watching baseball, and reading.
+        Outside of coding, I really enjoy playing music, whether it be upright bass in Northwestern's Philharmonia Orchestra,
+        electric bass in my band, or a combination of both in student productions on campus. This past year, I played in <i>Pippin</i>
+        as well as an entirely student-written production titled <i>The Ballad of Ricky Jo</i>. I also enjoy playing tennis and softball, watching baseball (Go Brewers!), and reading.
       </p>
 
       <p>
-        If you'd like to connect or collaborate, please feel free to <a href="#contact">get in touch</a>.
+        If you'd like to connect or collaborate, please feel free to <a href="#contact" class="inline-cta">get in touch</a>.
       </p>
 
     </div>
     <div class="about-collage">
-      <img src="grad.JPG" alt="Ben Auby grad photo" class="photo-slot collage-item" style="width: 100%; height: 100%; object-fit: cover;">
-      <img src="ebass.jpeg" alt="Ben Auby playing electric bass" class="photo-slot collage-item" style="width: 100%; height: 100%; object-fit: cover;">
-      <img src="reading.JPG" alt="Ben Auby performatively reading Dune Messiah" class="photo-slot collage-item" style="width: 100%; height: 100%; object-fit: cover;">
-      <img src="uprightbass.JPG" alt="Ben Auby playing upright bass" class="photo-slot collage-item" style="width: 100%; height: 100%; object-fit: cover;">
-      <img src="baseball.JPG" alt="Ben Auby and Gregg at a Brewers game" class="photo-slot collage-item" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="images/grad.JPG" alt="Ben Auby grad photo" class="photo-slot collage-item" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="images/ebass.jpeg" alt="Ben Auby playing electric bass" class="photo-slot collage-item" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="images/reading.JPG" alt="Ben Auby performatively reading Dune Messiah" class="photo-slot collage-item" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="images/uprightbass.JPG" alt="Ben Auby playing upright bass" class="photo-slot collage-item" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="images/baseball.JPG" alt="Ben Auby and Gregg at a Brewers game" class="photo-slot collage-item" style="width: 100%; height: 100%; object-fit: cover;">
     </div>
   </div>
   </section>
 
   <h2 class="section-title" id="projects">Projects</h2>
-  <section class="project" id="catan">
+  <section class="project" id="guitar">
     <div class="project-media">
-      <img src="catan.png" alt="Board state from the Catan game" class="photo-slot">
+         <img src="images/air_bitar.JPG" alt="Group photo from Air-Bitar Project" class="photo-slot">
     </div>
     <div class="project-copy">
-      <h2>Catan, built from scratch</h2>
-      <p class="project-meta">Java · SDLC · System Design</p>
-      <p>A full implementation of the Catan board game, built with a team under strict engineering discipline: test-driven development, boundary value analysis, EasyMock for isolating dependencies, and SpotBugs and CheckStyle enforced on every commit.</p>
-      <p>I worked on the core game model, classes like <code>BoardHandler</code>, <code>Port</code>, <code>Hex</code>, <code>Robber</code>, and <code>GameModel</code>, and wrote integration and unit tests as the codebase grew.</p>
-    </div>
-  </section>
-
-  <section class="project reverse" id="guitar">
-    <div class="project-media">
-         <img src="air_bitar.JPG" alt="Group photo from Air-Bitar Project" class="photo-slot">
-    </div>
-    <div class="project-copy">
-      <h2>Guitar Hero, played on a Micro:bit</h2>
+      <h2><a href="https://github.com/benauby11/Air-Bit-ar">Air Bit-ar</a></h2>
       <p class="project-meta">Embedded C · Micro:bit v2 · Microcontrollers</p>
       <p>A Guitar Hero–style game utilizing three separate Micro:bits, all communicating wirelessly. One connected to a glove to detect finger flexion, another inside a 3D-printed guitar pick to detect strumming, and a third running the actual game logic and display.</p>
       <p>We converted self-recorded guitar strums into arrays used in PWM cycles for audio playback, and wrote drivers for most of the sensors. One of my favorite projects I've ever worked on!</p>
     </div>
   </section>
 
-  <section class="project" id="underwater">
+  <section class="project reverse" id="catan">
     <div class="project-media">
-      <img src="project2Day.png" alt="Underwater scene photo" class="photo-slot" style="aspect-ratio: 1 / 1;">
+      <img src="images/catan.png" alt="Board state from the Catan game" class="photo-slot">
     </div>
     <div class="project-copy">
-      <h2>Interactive coral reef</h2>
+      <h2><a href="https://github.com/benauby11/Desktop-Catan">Catan, built from scratch</a></h2>
+      <p class="project-meta">Java · SDLC · System Design</p>
+      <p>A full implementation of the Catan board game, built with a team under strict engineering discipline: test-driven development, boundary value analysis, EasyMock for isolating dependencies, and SpotBugs and CheckStyle enforced on every commit.</p>
+      <p>I worked on the core game model, classes like <code>BoardHandler</code>, <code>Port</code>, <code>Hex</code>, <code>Robber</code>, and <code>GameModel</code>, and wrote integration and unit tests as the codebase grew.</p>
+    </div>
+  </section>
+
+  <section class="project" id="teddytalk">
+    <div class="project-media">
+         <img src="images/teddy.jpg" alt="Teddy Talk logo" class="photo-slot" style="aspect-ratio: 7 / 5;">
+    </div>
+    <div class="project-copy">
+      <h2><a href="https://github.com/benauby11/Teddy-Talk">Teddy Talk</a></h2>
+      <p class="project-meta">OpenAI Realtime API · WebRTC · Prompt Engineering</p>
+      <p>A real-time conversational teddy bear built for children, aimed at childhood education and companionship. We utilized the OpenAI Realtime API and streamed over WebRTC for low-latency, natural-feeling conversation.</p>
+      <p>I built content moderation and SMS-based parental notifications, instantly texting parents transcripts of flagged content so they have full visibility into their child's conversations.</p>
+    </div>
+  </section>
+
+  <section class="project reverse" id="wildcards">
+    <div class="project-media">
+         <img src="images/wildcards.jpg" alt="Screenshot from Wildcards app" class="photo-slot" style="aspect-ratio: 1 / 2; width: 220px; margin: 0 auto; display: block;">
+    </div>
+    <div class="project-copy">
+      <h2><a href="https://github.com/benauby11/WildCards">WildCards</a></h2>
+      <p class="project-meta">React · Supabase · Claude</p>
+      <p>A location-based mobile web app built at WildHacks 2026 that unlocks digital trading cards when users physically visit real stadiums. Think Pokémon Go, but for sports card trading, where real-world workouts (tracked via the Strava API) level up your cards.</p>
+      <p>I focused on the overall design of the system, as well as integrating battles between players. We decided to utilize Claude to help us build much of the front end of the application,
+        a decision that let us hit a scope well beyond what our time constraints would normally support.
+      </p>
+    </div>
+  </section>
+
+  <section class="project" id="underwater">
+    <div class="project-media">
+      <img src="images/project2Day.png" alt="Underwater scene photo" class="photo-slot" style="aspect-ratio: 1 / 1;">
+    </div>
+    <div class="project-copy">
+      <h2><a href="https://youtube.com/shorts/DeUHCmtuHQY">Interactive coral reef</a></h2>
       <p class="project-meta">JavaScript · WebGL · Animation</p>
       <p>A 3D underwater scene for a computer graphics course, which required OBJ model parsing, Phong lighting, texture mapping, caustic light patterns on the seafloor, volumetric light rays through the water, and a skybox cubemap holding it all together.</p>
       <p>Time the shark's animation cycle to hunt down and eat a goldfish, or tap spacebar to propel the jellyfish upward. A full camera system lets you move through the scene, with both orthographic and perspective views.</p>
     </div>
   </section>
 
-  <section class="project reverse" id="video game">
+  <section class="project reverse" id="video-game">
     <div class="project-media">
-         <img src="siftw.png" alt="Screenshot from Sleep is For The Week" class="photo-slot" style="aspect-ratio: 13 / 9;">
+         <img src="images/siftw.png" alt="Screenshot from Sleep is For The Week" class="photo-slot" style="aspect-ratio: 13 / 9;">
     </div>
     <div class="project-copy">
-      <h2>Sleep is for the Week</h2>
+      <h2><a href="https://github.com/benauby11/Sleep-is-for-the-Week">Sleep is for the Week</a></h2>
       <p class="project-meta">C# · Unity · Game Design</p>
       <p>A <i>Vampire Survivors</i>–style game built for a game design course focused on interactive and progressive gameplay. Waves of enemies scale up as you survive longer, and the player steadily unlocks new abilities and upgrades.</p>
       <p>I built four unlockable weapons, each with a distinct attack pattern that changes how you play as your run progresses. I also handled character and camera movement, tuning aspects such as movement smoothing and predictive camera tracking.</p>
@@ -126,7 +153,7 @@
       </div>
       <div class="resume-column">
         <h3><a href="resume.pdf" download>Resume</a></h3>
-        <img src="resume.png" alt="Benjamin Auby's resume" class="resume-embed">
+        <img src="images/resume.png" alt="Benjamin Auby's resume" class="resume-embed">
       </div>
     </div>
 </section>

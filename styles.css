@@ -1,10 +1,10 @@
 :root {
   --paper: #F7F6F2;
-  --ink: #1C1C1A;
-  --ink-soft: #57564F;
+  --ink: #2F5233;
+  --ink-soft: #63665A;
   --line: #DBD9D0;
-  --accent: #2F5233;
-  --accent-soft: #DDE6DC;
+  --accent: #566B52;
+  --accent-soft: #E4E8DF;
 }
 
 * { box-sizing: border-box; }
@@ -301,6 +301,16 @@ main {
   }
 
   .project-copy p { max-width: none; }
+
+  .contact-columns {
+    flex-direction: column;
+    gap: 2rem !important;
+  }
+
+  .resume-embed {
+    width: 100%;
+    max-width: 500px;
+  }
 }
 
 /* ---------- Accessibility ---------- */
@@ -328,19 +338,22 @@ button:focus-visible {
 .nav-name {
   font-family: 'Newsreader', Georgia, serif;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: var(--ink);
+  line-height: 1;
 }
 
 .nav-links {
   display: flex;
   gap: 2rem;
+  line-height: 1;
 }
 
 .nav-links a {
   color: var(--ink);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
+  font-family: 'Newsreader', Georgia, serif;
 }
 
 .nav-links a:hover {
@@ -351,6 +364,26 @@ button:focus-visible {
   scroll-margin-top: 100px;
 }
 
-#catan {
+#guitar {
   padding-top: 1.5rem;
+}
+
+.inline-cta {
+  font-weight: 75;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.inline-cta:hover {
+  color: var(--accent);
+}
+
+.project-copy h2 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.project-copy h2 a:hover {
+  color: var(--accent);
+  text-decoration: underline;
 }
