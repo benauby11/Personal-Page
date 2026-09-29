@@ -431,7 +431,7 @@ button:focus-visible {
   transition: text-decoration-color 0.2s, color 0.2s;
 }
 .video-trigger::after {
-  content: " ▶";
+  content: "\25B6\FE0E";
   margin-left: 0.5em;
   font-size: 0.6em;
   vertical-align: middle;
