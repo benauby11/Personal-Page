@@ -392,3 +392,87 @@ button:focus-visible {
   color: var(--accent);
   text-decoration: underline;
 }
+
+#video-dialog {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  overflow: visible;
+  max-width: none;
+}
+#video-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.8);
+}
+#video-dialog video {
+  display: block;
+  max-width: 90vw;
+  max-height: 80vh;
+  border-radius: 12px;
+  background: #000;
+}
+.video-close {
+  position: absolute;
+  top: -2.5rem;
+  right: 0;
+  background: none;
+  border: 0;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.video-trigger {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.3);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 2px;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+.video-trigger::after {
+  content: " ▶";
+  margin-left: 0.5em;
+  font-size: 0.6em;
+  vertical-align: middle;
+  opacity: 0.7;
+  transition: opacity 0.2s, transform 0.2s;
+  display: inline-block;
+}
+.video-trigger:hover,
+.video-trigger:focus-visible {
+  color: #0a66c2;                    /* swap for your accent color */
+  text-decoration-color: currentColor;
+}
+.video-trigger:hover::after,
+.video-trigger:focus-visible::after {
+  opacity: 1;
+  transform: translateX(3px);
+}
+
+.repo-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.3);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 2px;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+.repo-icon {
+  width: 0.7em;
+  height: 0.7em;
+  margin-left: 0.3em;
+  vertical-align: baseline;
+  opacity: 0.7;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.repo-link:hover,
+.repo-link:focus-visible {
+  color: #0a66c2;
+  text-decoration-color: currentColor;
+}
+.repo-link:hover .repo-icon,
+.repo-link:focus-visible .repo-icon {
+  opacity: 1;
+  transform: translateX(3px);
+}
